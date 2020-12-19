@@ -1,0 +1,1 @@
+open index file like such: file:///home/jeremy/Projects/Website/jshaffar.github.io/index.html
