@@ -1,0 +1,26 @@
+<html>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        var first_text = window.prompt("Enter the first number: ")
+        var operation_text = window.prompt("Enter your operation")
+        var second_text = window.prompt("Enter the second number")
+        var first = Number(first_text);
+        var second = Number(second_text);
+        var answer_text = "Invalid input"
+        if (first != "NaN") {
+            if (operation_text == '+') {
+                answer_text = (first + second).toString();
+            } else if (operation_text == '-') {
+                answer_text = (first - second).toString();
+            } else if (operation_text == '*') {
+                answer_text = (first * second).toString();
+            } else if (operation_text == '/') {
+                answer_text = (first / second).toString();
+            }
+        }
+        document.write(first_text + ' ' + operation_text + ' ' + second_text + " = " + answer_text)
+    </script>
+</body>
+
+</html>
